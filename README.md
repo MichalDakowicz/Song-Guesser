@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="data/logo.png", style="width: 25%"/>
+  <img src="data/logo.png", style="width: 50%"/>
 
 &#xa0;
 
@@ -33,11 +33,12 @@
 
 The project is developed using Python and leverages the following libraries:
 
--   CustomTkinter (for the graphical user interface)
+-   customtkinter (for the graphical user interface)
 -   Pygame (for playing audio)
 -   Mutagen (for reading MP3 metadata)
 -   Pydub (for audio manipulation)
--   spotdl
+-   spotdl (for downloading music from Spotify)
+-   pillow (for image processing)
 
 The code is organized into several files:
 
@@ -50,11 +51,12 @@ Feel free to explore the code and contribute to the project!
 ## Requirements
 
 -   Python 3.x
+-   customtkinter
 -   Pygame
 -   Mutagen
 -   Pydub
 -   spotdl
--   customtkinter
+-   pillow
 
 Install the required libraries using pip:
 
@@ -66,7 +68,7 @@ pip install -r requirements.txt
 
 Clone or download the repository.
 
-Run main.py or setup.py once to create necessary folders, configuration files and install ffmpeg for spotdl.
+Run setup.py once to create necessary folders and configuration files.
 
 Place your MP3 files in the "music" folder.
 
